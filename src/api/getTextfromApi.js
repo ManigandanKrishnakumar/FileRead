@@ -1,7 +1,7 @@
 const { default: axios } = require("axios");
 
 const getTextFromApi = async (url) => {
-  console.log("Downloading...");
+  console.log("Downloading the text...");
   try {
     const response = await axios({
       url,
